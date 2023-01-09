@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    float: none;
+    clear: both;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.footer{
+    background-color: #833471;
+    columns: white;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #833471;
+}
+.menu ul li a:hover{
+    color: #D980FA;
+}
+.main-content{
+    background-color: rgb(225, 225, 228);
+    padding: 2% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    padding: 1%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+table tr td{
+    padding: 1%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+.btn-primay{
+    background-color: #341f97;
+    padding: 1%;
+    border-radius: 13%;
+    text-decoration: none;
+    color: white;
+}
+.btn-primay:hover{
+    background-color:#5f27cd;
+}
+
+.btn-danger{
+    background-color: #ee5253;
+    padding: 1%;
+    border-radius: 13%;
+    text-decoration: none;
+    color: white;
+}
+.btn-danger:hover{
+    background-color:#ff6b6b;
+}
+
+.btn-second{
+    background-color: #20bf6b;
+    padding: 1%;
+    border-radius: 13%;
+    text-decoration: none;
+    color: white;
+}
+.btn-second:hover{
+    background-color:#26de81;
+}
+
+.success{
+    color: #1dd1a1;
+}
+.error{
+    color: #ee5253;
+}
